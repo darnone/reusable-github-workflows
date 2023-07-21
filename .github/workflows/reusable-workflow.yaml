@@ -4,9 +4,9 @@ on:
   workflow_call:
 
 jobs:
-  ru-job:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses actions/checkout@v1
-      - name: Write Message
-          echo: "I am a resuable workflow - main branch1"
+      - uses: actions/checkout@v3
+      - name: Write soemthing to log
+          echo "I am a resuable workflow - main branch!"
