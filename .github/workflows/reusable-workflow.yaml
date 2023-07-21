@@ -5,8 +5,8 @@ on:
 
 jobs:
   ru-job:
-  runs-on: ubuntu-latest
-  steps:
-    - uses actions/checkout@v1
-    - name: Write Message
-        echo: "I am a resuable workflow - main branch1"
+    runs-on: ubuntu-latest
+    steps:
+      - uses actions/checkout@v1
+      - name: Write Message
+          echo: "I am a resuable workflow - main branch1"
