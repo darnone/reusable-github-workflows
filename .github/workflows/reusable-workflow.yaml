@@ -1,0 +1,12 @@
+name: Remote Reausable Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  ru-job:
+  runs-on: ubuntu-latest
+  steps:
+    - uses actions/checkout@v1
+    - name: Write Message
+        echo: "I am a resuable workflow - main branch1"
