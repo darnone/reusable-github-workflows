@@ -1,4 +1,4 @@
-name: Remote Reausable Workflow
+name: Remote Reausable Workflow Inputs
 
 on:
   workflow_call:
@@ -12,3 +12,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: Write something to log
         run: echo "I am a reusable workflow ${{inputs.tag}}- main branch"
+s
