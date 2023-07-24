@@ -5,6 +5,8 @@ on:
     inputs:
       tag: 
         type: string
+    secrets:
+      
 jobs:
   test:
     runs-on: ubuntu-latest
