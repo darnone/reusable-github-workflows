@@ -1,4 +1,4 @@
-name: Commit Issue Commenter
+name: Commit Issue Commenter Reusable
 
 on:
   workflow_call:
